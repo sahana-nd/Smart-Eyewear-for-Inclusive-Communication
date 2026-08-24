@@ -7,13 +7,13 @@ import math
 
 # Firebase Configuration - Replace with your own Firebase project details
 firebase_config = {
-   "apiKey": "AIzaSyCM0tItu-glPhEllQZPz8h6_5ZsHTBiaMw",
-    "authDomain": "intel-gesture.firebaseapp.com",
-    "databaseURL": "https://intel-gesture-default-rtdb.firebaseio.com/",
-    "projectId": "intel-gesture",
-    "storageBucket": "intel-gesture.firebasestorage.app",
-    "messagingSenderId": "696474188829",
-    "appId": "G-1FK4E6M2VT"
+   "apiKey": "  ",
+    "authDomain": "  ",
+    "databaseURL": "  ",
+    "projectId": "  ",
+    "storageBucket": "  ",
+    "messagingSenderId": "  ",
+    "appId": "  "
 }
 
 # Initialize Firebase
