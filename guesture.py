@@ -34,10 +34,10 @@
 #     print("⚠️ Object detection not available. Install: pip install ultralytics")
 
 # # Camera credentials
-# USERNAME = "admin"
-# PASSWORD = "admin@123"
-# CAMERA_IP = "192.168.29.107"
-# PORT = 8000
+# USERNAME = "  "
+# PASSWORD = "  "
+# CAMERA_IP = "  "
+# PORT = 8002
 
 # def zeep_pythonvalue(self, xmlvalue):
 #     """Custom converter for zeep to handle xsd:dateTime values properly"""
@@ -565,21 +565,12 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Camera credentials
-USERNAME = "admin"
-PASSWORD = "admin@123"
-CAMERA_IP = "10.99.57.44"
-PORT = 8000
+USERNAME = "  "
+PASSWORD = "  "
+CAMERA_IP = "  "
+PORT = 
 
-# # Firebase configuration
-# FIREBASE_CONFIG = {
-#     "apiKey": "AIzaSyBzXzocbdytn4N8vLrT-V2JYZ8pgqWrbC0",  # You'll need to get this from Firebase console
-#     "authDomain": "self-balancing-7a9fe.firebaseapp.com",
-#     "databaseURL": "https://self-balancing-7a9fe-default-rtdb.firebaseio.com/",
-#     "projectId": "self-balancing-7a9fe",
-#     "storageBucket": "self-balancing-7a9fe.appspot.com",
-#     "messagingSenderId": "1044959372723",  # You'll need to get this from Firebase console
-#     "appId": "1:1044959372723:web:7e1f73307107cf91ba97c6"  # You'll need to get this from Firebase console
-# }
+
 
 def zeep_pythonvalue(self, xmlvalue):
     """Custom converter for zeep to handle xsd:dateTime values properly"""
@@ -669,7 +660,7 @@ class CPPlusAccessibilityCamera:
             if not firebase_admin._apps:
                 cred = credentials.Certificate(service_file)
                 self.firebase_app = firebase_admin.initialize_app(cred, {
-                    'databaseURL': 'https://self-balancing-7a9fe-default-rtdb.firebaseio.com/'
+                    'databaseURL': ' '
                 })
             else:
                 self.firebase_app = firebase_admin.get_app()
